@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <!-- Action-bar looking view -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/actionbar_dimen"
+        android:background="@color/dark_gray"
+        >
+
+        <ImageView
+            android:id="@+id/drawer_indicator"
+            android:layout_width="@dimen/actionbar_dimen"
+            android:layout_height="@dimen/actionbar_dimen"
+            android:scaleType="centerInside"
+            android:background="@drawable/drawer_selector"
+            android:layout_gravity="start"
+            />
+
+        <TextView
+            android:id="@+id/indicator_style"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/actionbar_dimen"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:layout_gravity="end"
+            android:text="@string/rounded"
+            android:textStyle="bold"
+            android:textColor="@color/light_gray"
+            android:gravity="center"
+            android:background="@drawable/drawer_selector"
+            />
+
+    </FrameLayout>
+
+    <!-- Content -->
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="15"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"></FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="60">
+
+                    <EditText
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tv_tlf"
+                        android:layout_gravity="center"
+                        android:hint="Nº telefono:" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Buscar"
+                        android:id="@+id/button"
+                        android:onClick="buscarReserva" />
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="90"
+                android:orientation="horizontal">
+
+                <GridView
+                    android:id="@+id/gridView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:columnWidth="100dp"
+                    android:drawSelectorOnTop="true"
+                    android:gravity="center"
+                    android:numColumns="2"
+                    android:stretchMode="columnWidth"
+                    android:verticalSpacing="5dp"
+                    android:horizontalSpacing="5dp"
+                    android:focusable="true"
+                    android:clickable="true" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/drawer_listview"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:gravity="center"
+            android:text="@string/drawer_hint"
+            android:background="@color/white"
+            android:orientation="vertical"></ListView>
+
+    </android.support.v4.widget.DrawerLayout>
+
+
+
+</LinearLayout>

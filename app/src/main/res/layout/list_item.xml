@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:orientation="vertical"
+    android:id="@+id/fondo"
+    android:layout_margin="10dp"
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="10dp"
+    android:background="@drawable/myshape">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="32dp">
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="70">
+
+            <TextView
+                android:id="@+id/tv_destino"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17dip"
+                android:paddingBottom="5dp"
+                android:text="destino" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Text"
+                android:id="@+id/color"
+                android:layout_gravity="center"
+                android:visibility="gone" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="30"
+            android:layout_gravity="center">
+
+            <com.daimajia.numberprogressbar.NumberProgressBar
+                android:id="@+id/numberbar1"
+                android:layout_width="wrap_content"
+                android:padding="20dp"
+                custom:progress="0"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:id="@+id/tv_personas"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17dip"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="10"
+                android:layout_gravity="center"
+                android:paddingLeft="44dp"
+                android:textAlignment="gravity"
+                android:visibility="gone"/>
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="20dp">
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="30">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Salida: 22:00"
+                android:id="@+id/tv_salida" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Llegada: 22:30"
+                android:id="@+id/tv_llegada" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="30">
+
+        </FrameLayout>
+    </LinearLayout>
+
+</LinearLayout>

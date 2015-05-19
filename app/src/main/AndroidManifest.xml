@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.aitor2.myapplication" >
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- GCM requires a Google account. -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <permission android:name="com.example.aitor2.myapplication.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+    <uses-permission android:name="com.example.aitor2.myapplication.permission.C2D_MESSAGE" />
+    <application
+        android:allowBackup="true"
+        tools:replace="android:icon,android:theme"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".DrawerArrowSample"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".registerClass"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".loginClass"
+            android:label="@string/app_name" >
+
+        </activity>
+
+        <activity
+            android:name=".dialogReserva"
+            android:label="@string/app_name" >
+
+        </activity>
+
+        <activity
+            android:name=".misReservas"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name=".listViewPrueba"
+            android:label="@string/app_name" >
+
+        </activity>
+
+        <receiver
+            android:name=".GcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <category android:name="com.example.aitor2.myapplication" />
+            </intent-filter>
+        </receiver>
+        <service android:name=".GcmIntentService" />
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="3997ad76ca95929e358978879e7ba5fbb00f57ba" />
+    </application>
+</manifest>
