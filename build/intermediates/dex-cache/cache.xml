@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\aitor2\Desktop\MyApplication\app\build\intermediates\exploded-aar\MyApplication\floating2\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8d07d1e58985f9b2c4751fc2587e4425d0e721ce">
+        <dex dex="C:\Users\aitor2\Desktop\MyApplication\app\build\intermediates\pre-dexed\debug\classes-0536b133205db49e7007bdd59be961e9c1f82d6f.jar" />
+    </item>
+    <item
+        jar="C:\Users\aitor2\Desktop\MyApplication\app\build\intermediates\exploded-aar\cn.pedant.sweetalert\library\1.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0c3529d9491be892952749d252ae1defa9b1f937">
+        <dex dex="C:\Users\aitor2\Desktop\MyApplication\app\build\intermediates\pre-dexed\debug\classes-aef85d8eb932345f2d2bf29fe81bccb54447fe40.jar" />
+    </item>
+    <item
+        jar="C:\Users\aitor2\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="C:\Users\aitor2\AndroidStudioProjects\MyApplication\app\build\intermediates\pre-dexed\debug\support-annotations-22.0.0-5abc560a4710511ebc82ec44b9c20b827d7d949c.jar" />
+    </item>
+    <item
+        jar="C:\Users\aitor2\AndroidStudioProjects\MyApplication\app\build\intermediates\exploded-aar\MyApplication\floating\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="31b84cdecd21997082530c2851438f3d858a4cc3">
+        <dex dex="C:\Users\aitor2\AndroidStudioProjects\MyApplication\app\build\intermediates\pre-dexed\debug\classes-2008293e763c233fd3be842e4c795e20140f22c9.jar" />
+    </item>
+    <item
+        jar="C:\Users\aitor2\Desktop\MyApplication\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b8945fc23a7461c6fdde15753456d64b0a9358b">
+        <dex dex="C:\Users\aitor2\Desktop\MyApplication\app\build\intermediates\pre-dexed\debug\classes-fa3258e6e43e4dba377b4ff8ffcfbd6744f68270.jar" />
+    </item>
+    <item
+        jar="C:\Users\aitor2\AndroidStudioProjects\MyApplication\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="C:\Users\aitor2\AndroidStudioProjects\MyApplication\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-1722cee3527723bced530735ddcc8fb05b7e2a70.jar" />
+    </item>
+    <item
+        jar="C:\Users\aitor2\Desktop\MyApplication\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\crashlytics\2.2.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="151dcc4be9b748290223c6bbf94bf8213181a971">
+        <dex dex="C:\Users\aitor2\Desktop\MyApplication\app\build\intermediates\pre-dexed\debug\classes-ebb3415fbe8467108dd425d974c2015c37a84e4c.jar" />
+    </item>
+    <item
+        jar="C:\Users\aitor2\AndroidStudioProjects\MyApplication\app\build\intermediates\exploded-aar\MyApplication\floating2\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ec7eac2644e2a27b057f572f2185e283f62f8c8a">
+        <dex dex="C:\Users\aitor2\AndroidStudioProjects\MyApplication\app\build\intermediates\pre-dexed\debug\classes-131c5efdb0aa727c41cad181432ffb6d3745a8c2.jar" />
+    </item>
+    <item
+        jar="C:\Users\aitor2\Desktop\MyApplication\app\libs\gcm.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a6d7bce795a14c7f86111756c4ceb44b79de14aa">
+        <dex dex="C:\Users\aitor2\Desktop\MyApplication\app\build\intermediates\pre-dexed\debug\gcm-4de5e28414cd1741f268ce16ec3372ab29791dd4.jar" />
+    </item>
+    <item
+        jar="C:\Users\aitor2\Desktop\MyApplication\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\beta\1.1.2\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0d6546c1c73cb64a6907f694e6c4bf4b50fefa70">
+        <dex dex="C:\Users\aitor2\Desktop\MyApplication\app\build\intermediates\pre-dexed\debug\classes-9c2828afe9a79e025f7ade63d8831df62dfd9280.jar" />
+    </item>
+    <item
+        jar="C:\Users\aitor2\Desktop\MyApplication\app\build\intermediates\exploded-aar\com.pnikosis\materialish-progress\1.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="57487745ce450899f9f250d5ae5c092a682cd041">
+        <dex dex="C:\Users\aitor2\Desktop\MyApplication\app\build\intermediates\pre-dexed\debug\classes-b10404d4929415f499d26d95af86a5a22c2a7037.jar" />
+    </item>
+    <item
+        jar="C:\Users\aitor2\Desktop\MyApplication\app\build\intermediates\exploded-aar\MyApplication\floating\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f49b6fc843fb14fc1fe62655a65498a77438ca03">
+        <dex dex="C:\Users\aitor2\Desktop\MyApplication\app\build\intermediates\pre-dexed\debug\classes-ff720c2177b4b8c17ccba16015fbf31fdf5e60ad.jar" />
+    </item>
+    <item
+        jar="C:\Users\aitor2\AndroidStudioProjects\MyApplication\app\build\intermediates\exploded-aar\MyApplication\cal\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f1cea62d3e3fea0fc5957f7798e302df599ec8ae">
+        <dex dex="C:\Users\aitor2\AndroidStudioProjects\MyApplication\app\build\intermediates\pre-dexed\debug\classes-037cfc6bc16066e63aad38656ecf0612d402424f.jar" />
+    </item>
+    <item
+        jar="C:\Users\aitor2\Desktop\MyApplication\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="C:\Users\aitor2\Desktop\MyApplication\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-84a527151e0187fdc4b4461ce847fe10f782b9b5.jar" />
+    </item>
+    <item
+        jar="C:\Users\aitor2\Desktop\MyApplication\app\build\intermediates\exploded-aar\io.fabric.sdk.android\fabric\1.3.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7372378dec00f25c04714a058617e515858273c8">
+        <dex dex="C:\Users\aitor2\Desktop\MyApplication\app\build\intermediates\pre-dexed\debug\classes-e9c0bdf1239bd789477d2e0d481cfc90a952da43.jar" />
+    </item>
+    <item
+        jar="C:\Users\aitor2\Desktop\MyApplication\app\build\intermediates\exploded-aar\MyApplication\cal\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3248bc15dbbab9fc11c03a8ce239ffae5cb67e7c">
+        <dex dex="C:\Users\aitor2\Desktop\MyApplication\app\build\intermediates\pre-dexed\debug\classes-018abf4e152d5ece398fea46cb8e79632a857045.jar" />
+    </item>
+    <item
+        jar="C:\Users\aitor2\AndroidStudioProjects\MyApplication\app\build\intermediates\exploded-aar\MyApplication\progress\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f34a2914b926c2fa132848cd1771333614394be7">
+        <dex dex="C:\Users\aitor2\AndroidStudioProjects\MyApplication\app\build\intermediates\pre-dexed\debug\classes-e053996659b8b8aa5b34e383ab7712696054aef3.jar" />
+    </item>
+    <item
+        jar="C:\Users\aitor2\Desktop\MyApplication\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\answers\1.1.2\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="158555fbeff80e5a85464a818eadda8a448a1051">
+        <dex dex="C:\Users\aitor2\Desktop\MyApplication\app\build\intermediates\pre-dexed\debug\classes-11e20f46c60df001da391748ee190e5d3c05be30.jar" />
+    </item>
+    <item
+        jar="C:\Users\aitor2\Desktop\MyApplication\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="C:\Users\aitor2\Desktop\MyApplication\app\build\intermediates\pre-dexed\debug\classes-2507a8c6e888bb1bc1b7b2e0347e49b4a3569a44.jar" />
+    </item>
+    <item
+        jar="C:\Users\aitor2\AndroidStudioProjects\MyApplication\app\libs\google-play-services.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="38c2f8e192dc24ddbf6cae2784f3d4267af66a3e">
+        <dex dex="C:\Users\aitor2\AndroidStudioProjects\MyApplication\app\build\intermediates\pre-dexed\debug\google-play-services-1bf302e9ddd11eb97b6acfb6cb5bd6610d3f3587.jar" />
+    </item>
+    <item
+        jar="C:\Users\aitor2\AndroidStudioProjects\MyApplication\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="C:\Users\aitor2\AndroidStudioProjects\MyApplication\app\build\intermediates\pre-dexed\debug\classes-801efc2893dce05660bfa4652f11a05825705691.jar" />
+    </item>
+    <item
+        jar="C:\Users\aitor2\Desktop\MyApplication\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="C:\Users\aitor2\Desktop\MyApplication\app\build\intermediates\pre-dexed\debug\classes-6ac89a2566e84c75134a2555f99c6f026d0e565b.jar" />
+    </item>
+    <item
+        jar="C:\Users\aitor2\Desktop\MyApplication\app\build\intermediates\exploded-aar\MyApplication\progress\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="836d8e92afe1f99d749d764c2343e95f63294e69">
+        <dex dex="C:\Users\aitor2\Desktop\MyApplication\app\build\intermediates\pre-dexed\debug\classes-849372b05f0893127ce3ebd5b597287163fe6bf2.jar" />
+    </item>
+    <item
+        jar="C:\Users\aitor2\Desktop\MyApplication\app\libs\google-play-services.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="38c2f8e192dc24ddbf6cae2784f3d4267af66a3e">
+        <dex dex="C:\Users\aitor2\Desktop\MyApplication\app\build\intermediates\pre-dexed\debug\google-play-services-fa18009c922a48fa1daad87e2075214930cd12f4.jar" />
+    </item>
+    <item
+        jar="C:\Users\aitor2\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="C:\Users\aitor2\AndroidStudioProjects\MyApplication\app\build\intermediates\pre-dexed\debug\library-2.4.0-cbbaa602fa935b18ffeb6e484c70ba251de5b43d.jar" />
+    </item>
+    <item
+        jar="C:\Users\aitor2\AndroidStudioProjects\MyApplication\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="C:\Users\aitor2\AndroidStudioProjects\MyApplication\app\build\intermediates\pre-dexed\debug\classes-4a5fecc8d5e85bb22dd1139c82636fa88877318a.jar" />
+    </item>
+    <item
+        jar="C:\Users\aitor2\AndroidStudioProjects\MyApplication\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b8945fc23a7461c6fdde15753456d64b0a9358b">
+        <dex dex="C:\Users\aitor2\AndroidStudioProjects\MyApplication\app\build\intermediates\pre-dexed\debug\classes-5f0cf1c6aed8f661c643a08179f2c9c35f3e9ead.jar" />
+    </item>
+    <item
+        jar="C:\Users\aitor2\AndroidStudioProjects\MyApplication\app\libs\gcm.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a6d7bce795a14c7f86111756c4ceb44b79de14aa">
+        <dex dex="C:\Users\aitor2\AndroidStudioProjects\MyApplication\app\build\intermediates\pre-dexed\debug\gcm-0a706157fa8b485d57789141832f8087453eca22.jar" />
+    </item>
+
+</items>
