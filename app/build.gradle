@@ -26,6 +26,7 @@ android {
         targetSdkVersion 21
         versionCode 1
         versionName "1"
+        multiDexEnabled true
     }
     buildTypes {
         release {
@@ -43,8 +44,6 @@ dependencies {
     compile project(':floating2')
     compile project(':cal')
     compile project(':progress')
-    compile files('gcm.jar')
-    compile files('google-play-services.jar')
     compile('com.crashlytics.sdk.android:crashlytics:2.2.3@aar') {transitive = true;}
     compile 'cn.pedant.sweetalert:library:1.3'
 

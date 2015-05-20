@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="1_gcm">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/app/gcm.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
