@@ -2,6 +2,7 @@ package com.example.aitor2.myapplication;
 
 import android.app.Activity;
 import android.content.Context;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -10,6 +11,7 @@ import android.widget.TextView;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.regex.Pattern;
 
 /**
  * Created by aitor2 on 08/04/2015.
@@ -39,6 +41,7 @@ public class gridViewAdapter extends ArrayAdapter {
             holder.gFecha = (TextView) row.findViewById(R.id.gFecha);
             holder.gSalida= (TextView) row.findViewById(R.id.gSalida);
             holder.gLlegada= (TextView) row.findViewById(R.id.gLlegada);
+            holder.tv_tipo=(TextView) row.findViewById(R.id.tv_tipo);
             row.setTag(holder);
         } else {
             holder = (ViewHolder) row.getTag();
@@ -50,6 +53,10 @@ public class gridViewAdapter extends ArrayAdapter {
         holder.gFecha.setText(formatter.format(item.getgFecha()));
         holder.gSalida.setText(item.getgHoraSalida());
         holder.gLlegada.setText(item.getgHoraLlegada());
+        if(Pattern.compile("l").matcher(item.getTipo()).find())
+        {
+            holder.tv_tipo.setVisibility(View.VISIBLE);
+        }
         return row;
     }
 
@@ -58,5 +65,6 @@ public class gridViewAdapter extends ArrayAdapter {
         TextView gFecha;
         TextView gSalida;
         TextView gLlegada;
+        TextView tv_tipo;
     }
 }

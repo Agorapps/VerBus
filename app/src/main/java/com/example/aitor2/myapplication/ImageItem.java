@@ -11,6 +11,16 @@ public class ImageItem {
     private String gNombreEvento;
     private String gHoraSalida;
 
+    public String getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
+
+    private String tipo;
+
     public String getgPersonas() {
 
         return gPersonas;
@@ -81,7 +91,7 @@ public class ImageItem {
 
 
 
-    public ImageItem(String gNombreEvento, String gHoraSalida, Date gFecha, String gHoraLlegada, String idReserva, int gidViaje, String gPersonas ) {
+    public ImageItem(String gNombreEvento, String gHoraSalida, Date gFecha, String gHoraLlegada, String idReserva, int gidViaje, String gPersonas, String tipo ) {
         super();
         this.gNombreEvento = gNombreEvento;
         this.gHoraSalida = gHoraSalida;
@@ -90,6 +100,7 @@ public class ImageItem {
         this.idReserva = idReserva;
         this.gidViaje=gidViaje;
         this.gPersonas=gPersonas;
+        this.tipo=tipo;
     }
 
 

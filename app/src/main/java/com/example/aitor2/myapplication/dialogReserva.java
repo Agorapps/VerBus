@@ -87,20 +87,23 @@ public class dialogReserva extends Activity {
         sit3= (ImageView)findViewById((R.id.sit3));
         sit4= (ImageView)findViewById((R.id.sit4));
         rIdViaje = String.valueOf(getIntent().getIntExtra("idviaje",0));
+        String tipo= getIntent().getStringExtra("tipo");
+
         new sacarPersonas().execute();
 
 //            nOcu.setText(String.valueOf(4 - (getIntent().getIntExtra("plazas", 0))));
 //            nLib.setText(String.valueOf(getIntent().getIntExtra("plazas", 0)));
             String []ar=getIntent().getStringExtra("destino").split("[/]");
             et_destino.setText(ar[1]);
-
-
             et_salida.setText(getIntent().getStringExtra("salida"));
             SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy");
             et_fecha.setText(getIntent().getStringExtra("fecha"));
            // rellenarAsientos();
         if(getIntent().getIntExtra("aux",0)!=1) {
             button.setText("Reservar");
+        }else if(Pattern.compile("l").matcher(tipo).find())
+        {
+            button.setEnabled(false);
         }else{
             button.setText("Cancelar reserva");
             String tlf_reserva=getIntent().getStringExtra("tlf_reserva");

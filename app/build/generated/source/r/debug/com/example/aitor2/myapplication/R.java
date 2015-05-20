@@ -2337,7 +2337,6 @@ containing a value of this type.
         public static final int textView5=0x7f0b0077;
         public static final int textView6=0x7f0b0071;
         public static final int textView7=0x7f0b007b;
-        public static final int textView8=0x7f0b008f;
         public static final int textView9=0x7f0b007e;
         public static final int title=0x7f0b0046;
         public static final int title_text=0x7f0b006a;
@@ -2348,6 +2347,7 @@ containing a value of this type.
         public static final int tv_llegada=0x7f0b00a0;
         public static final int tv_personas=0x7f0b009e;
         public static final int tv_salida=0x7f0b009f;
+        public static final int tv_tipo=0x7f0b008f;
         public static final int tv_tlf=0x7f0b00a6;
         public static final int up=0x7f0b000a;
         public static final int useLogo=0x7f0b0014;

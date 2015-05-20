@@ -39,6 +39,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.Date;
 import java.util.List;
+import java.util.regex.Pattern;
 
 import static android.view.Gravity.START;
 
@@ -178,7 +179,7 @@ public class misReservas extends Activity {
                         e.printStackTrace();
                     }
 
-                    imageItems.add(new ImageItem(city.getString("bd_destinos"),city.getString("bd_salida"),date2, city.getString("bd_llegada"), city.getString("idreser"), city.getInt("id_propia"), city.getString("bd_personas")));
+                    imageItems.add(new ImageItem(city.getString("bd_destinos"),city.getString("bd_salida"),date2, city.getString("bd_llegada"), city.getString("idreser"), city.getInt("id_propia"), city.getString("bd_personas"), city.getString("tipo")));
 
                 }
             }catch (Exception e) {
@@ -204,6 +205,7 @@ public class misReservas extends Activity {
                     i.putExtra("salida", imageItems.get(position).getgHoraSalida());
                     i.putExtra("plazas", Integer.parseInt(imageItems.get(position).getgPersonas()));
                     i.putExtra("fecha", tv_fecha);
+                    i.putExtra("tipo",imageItems.get(position).getTipo());
                     i.putExtra("tlf_reserva", tv_telefono.getText().toString());
                     startActivity(i);
                 }
