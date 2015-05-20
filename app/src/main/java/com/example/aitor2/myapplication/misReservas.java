@@ -205,7 +205,6 @@ public class misReservas extends Activity {
                     i.putExtra("plazas", Integer.parseInt(imageItems.get(position).getgPersonas()));
                     i.putExtra("fecha", tv_fecha);
                     i.putExtra("tlf_reserva", tv_telefono.getText().toString());
-                    Log.d("IKJHFKJD","JKSFHKSDJ");
                     startActivity(i);
                 }
             });
